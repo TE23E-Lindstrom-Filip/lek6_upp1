@@ -1,0 +1,86 @@
+.box-grid {
+
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    grid-template-rows: 20vh 60vh 20vh;
+    background-color: #fcdee0;
+
+}
+
+.logo{
+   
+    height: 99%;
+    width: auto;
+
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+
+header{
+
+    grid-column: 2/2;
+    grid-row: 1/3;
+    
+    border: 2px solid black;
+    border-radius: 20px;
+    max-height: 20vh;   
+    margin-left: 5px;
+
+}
+
+nav{
+    
+    grid-column: 1/2;
+    grid-row: 2/3;
+
+    border: 2px solid black;
+    border-radius: 20px;
+    max-width: 190px;
+    margin-top: 5px;
+
+}
+
+main{
+   
+    grid-column: 2/2;
+    grid-row: 2/3;
+
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+article{
+   
+    grid-column: 2/2;
+    grid-row: 2/3;
+
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+footer{
+
+    grid-column: 2/2;
+    grid-row: 3/3;
+
+    border: 2px solid black;
+    border-radius: 20px;
+
+}
+
+h1{
+    text-align: center;
+}
